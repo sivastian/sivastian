@@ -6,7 +6,7 @@ on:
 jobs: 
      simple-workflow:
          runs-on: ubuntu-latest
-         step:
+         steps:
             - name : checkout code
               uses : actions/chechout@v3
 
