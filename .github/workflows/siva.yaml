@@ -11,7 +11,7 @@ jobs:
               uses : actions/checkout@v3
 
             - name : list files in directory
-              run : list
+              run : ls
             - name : print hello world
               run : echo "echo hello world from class 24"
             - name : perform a init test
