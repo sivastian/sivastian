@@ -1,0 +1,20 @@
+name: A simple workflow for class 24
+on:
+     push:
+         branches:
+             - master
+jobs: 
+     simple-workflow:
+         runs-on: ubuntu-latest
+         step:
+            - name : checkout code
+              uses : actions/chechout@v3
+
+            - name : list files in directory
+              run : list
+            - name : print hello world
+              run : echo "echo hello world from class 24"
+            - name : perform a init test
+              run : echo "unit test performance"  
+
+                               
