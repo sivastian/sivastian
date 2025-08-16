@@ -1,5 +1,4 @@
-<<<<<<< HEAD
+
 work from branch2
-=======
 work from siva
->>>>>>> sivastian
+
